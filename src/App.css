@@ -1,0 +1,165 @@
+body{
+  background-image:url('https://4kwallpapers.com/images/walls/thumbs_3t/6275.jpg');
+  background-size:auto;
+  backdrop-filter:blur(10px)
+}
+.footer{
+  background-image:url('https://www.shutterstock.com/image-illustration/grassy-lawn-seen-night-black-260nw-173205596.jpg');
+  background-size:cover;
+   background-position-y:-50px;
+}
+main {
+  }
+
+.effect{
+  animation-name:blink;
+  animation-duration:2s;
+  animation-iteration-count:infinite;
+  animation-direction: alternate-reverse;
+  font-weight:700;
+}
+
+.Cardboxself{
+  height:25vh;
+  width:25vh;
+  border:1px solid red;
+  margin-right:1vw
+}
+
+.container {
+  display: flex;
+  overflow: auto;
+}
+
+.container > * {
+  flex-shrink: 0;
+  width: 22em;
+  height: 22em;
+  margin:1em;
+  background-image:url(https://miro.medium.com/v2/resize:fit:1400/1*-U4maCVfQf5Du120SDuqSw.jpeg);
+  background-size:cover;
+  filter: brightness(0.50);
+  border-radius:5px;
+}
+
+.container>*:hover{
+  filter: brightness(1.75);
+}
+
+.CardBoxself:hover{
+      height: 60vh;
+      width: 60%;
+      /* transform: skew(500deg, 600deg); */
+      border: solid 10px black;
+      border-radius: 1cm;
+      transition-duration: 1s;
+      
+}
+
+
+.fa:hover {
+    opacity: 0.7;
+}
+.about-me {
+  text-align: center;
+  margin: 30px;
+  color:white;
+  
+}
+.navbarself{
+  align-items:center;
+  background-image:url('https://e0.pxfuel.com/wallpapers/54/319/desktop-wallpaper-space-blue-neon-space.jpg');
+  background-size:cover;
+  background-position-y:-50px;
+  animation-name:navbarglaze;
+  animation-duration:2s;
+  animation-iteration-count:infinite;
+  animation-direction: alternate-reverse;
+
+}
+
+.fa-facebook {
+  background-image:url(https://upload.wikimedia.org/wikipedia/en/thumb/0/04/Facebook_f_logo_%282021%29.svg/2048px-Facebook_f_logo_%282021%29.svg.png);
+  background-size:contain;
+  background-repeat:no-repeat;
+  height:10vh;
+  width:9vw;
+  margin-top:5vh;
+  margin-left:10px;
+}
+
+.fa-youtube{
+  background-image:url(https://yt3.googleusercontent.com/584JjRp5QMuKbyduM_2k5RlXFqHJtQ0qLIPZpwbUjMJmgzZngHcam5JMuZQxyzGMV5ljwJRl0Q=s900-c-k-c0x00ffffff-no-rj);
+  background-size:contain;
+  background-repeat:no-repeat;
+  height:10vh;
+  width:9vw;
+  margin-top:5vh;
+  margin-left:10px;
+}
+
+.fa-whatsapp{
+  background-image:url(https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/2044px-WhatsApp.svg.png);
+  background-size:contain;
+  background-repeat:no-repeat;
+ height:10vh;
+  width:9vw;
+  margin-top:5vh;
+  margin-left:10px;
+  margin-right:10px
+}
+
+
+.Fontanimate{
+  text-align: center;  
+  font-size: 23px;
+            animation-name:fontanimation;
+  animation-duration:2s;
+  animation-iteration-count:infinite;
+  animation-direction: alternate-reverse;
+  animation-timing-function:ease-in-out;
+}
+
+@keyframes fontanimation{
+   0% {
+                font-family:'arial';
+            }
+            50% {
+                font-family:'times';
+            }
+            100% {
+                font-family: 'times';
+            }
+}
+
+.fa-github{
+   background-image:url(  https://static-00.iconduck.com/assets.00/github-icon-2048x1988-jzvzcf2t.png);
+  background-size:contain;
+  background-repeat:no-repeat;
+  height:10vh;
+  width:9vw;
+  margin-top:5vh;
+  margin-left:10px;
+}
+
+.linkdin{
+  background-image:url(
+https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/768px-LinkedIn_logo_initials.png);
+  background-size:contain;
+  background-repeat:no-repeat;
+  height:10vh;
+  width:9vw;
+  margin-top:5vh;
+  margin-left:10px;
+}
+
+
+@keyframes blink{
+  from{color:orange}
+  to{color:white}
+}
+
+@keyframes navbarglaze{
+  from{filter:brightness(0.25)}
+  to{filter:brightness(1.5)}
+}
